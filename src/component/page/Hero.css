@@ -1,0 +1,242 @@
+/* Hero Component Custom Animations */
+
+/* Floating animation for background elements */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Gradient animation for text */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Pulse glow effect */
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.8);
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scale in animation */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Bounce in animation */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Custom classes for animations */
+.hero-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-gradient-text {
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+.hero-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.hero-slide-left {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.hero-slide-right {
+  animation: slideInRight 0.8s ease-out;
+}
+
+.hero-scale-in {
+  animation: scaleIn 0.6s ease-out;
+}
+
+.hero-bounce-in {
+  animation: bounceIn 0.8s ease-out;
+}
+
+/* Staggered animation delays */
+.hero-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.hero-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.hero-delay-300 {
+  animation-delay: 0.3s;
+}
+
+.hero-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.hero-delay-500 {
+  animation-delay: 0.5s;
+}
+
+/* Custom swiper pagination styles */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: white !important;
+  transform: scale(1.2) !important;
+}
+
+/* Backdrop blur support */
+.hero-backdrop-blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Glass morphism effect */
+.hero-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hover effects */
+.hero-card-hover {
+  transition: all 0.3s ease;
+}
+
+.hero-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover effects */
+.hero-button-primary {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.hero-button-primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.hero-button-primary:hover::before {
+  left: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-slide-left,
+  .hero-slide-right {
+    animation: scaleIn 0.6s ease-out;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .hero-glass {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .hero-float,
+  .hero-gradient-text,
+  .hero-pulse-glow {
+    animation: none;
+  }
+  
+  .hero-slide-left,
+  .hero-slide-right,
+  .hero-scale-in,
+  .hero-bounce-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .hero-glass {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid white;
+  }
+}
