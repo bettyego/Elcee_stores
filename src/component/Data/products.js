@@ -6,7 +6,7 @@ const products = [
     name: "Avila Hyaluronic Acid Serum",
     category: "Skincare",
     price: 25000,
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-1.jpeg",
     description: "Avila Naturalle intensive hydrating serum with pure hyaluronic acid for plump, dewy skin. 100% natural ingredients.",
     inStock: true
   },
@@ -15,7 +15,7 @@ const products = [
     name: "Avila Vitamin C Brightening Serum",
     category: "Skincare",
     price: 28000,
-    image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-2.jpeg",
     description: "Avila Naturalle powerful vitamin C serum that brightens and evens skin tone with natural botanicals.",
     inStock: true
   },
@@ -24,7 +24,7 @@ const products = [
     name: "Avila Retinol Night Cream",
     category: "Skincare",
     price: 35000,
-    image: "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-3.jpeg",
     description: "Avila Naturalle anti-aging night cream with plant-based retinol for smoother, firmer skin.",
     inStock: true
   },
@@ -33,7 +33,7 @@ const products = [
     name: "Avila Gentle Foaming Cleanser",
     category: "Skincare",
     price: 15000,
-    image: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-4.jpeg",
     description: "Avila Naturalle mild foaming cleanser with natural extracts that removes impurities without stripping skin.",
     inStock: true
   },
@@ -42,7 +42,7 @@ const products = [
     name: "Avila Niacinamide Pore Minimizer",
     category: "Skincare",
     price: 20000,
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-5.jpeg",
     description: "Avila Naturalle 10% niacinamide serum that minimizes pores and controls oil naturally.",
     inStock: true
   },
@@ -51,7 +51,7 @@ const products = [
     name: "Avila Ceramide Moisturizing Cream",
     category: "Skincare",
     price: 26000,
-    image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-6.jpeg",
     description: "Avila Naturalle rich moisturizer with plant-derived ceramides to restore skin barrier naturally.",
     inStock: true
   },
@@ -60,7 +60,7 @@ const products = [
     name: "Avila AHA/BHA Exfoliating Toner",
     category: "Skincare",
     price: 22000,
-    image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-7.jpeg",
     description: "Avila Naturalle gentle chemical exfoliant with natural fruit acids that reveals smoother, brighter skin.",
     inStock: true
   },
@@ -69,7 +69,7 @@ const products = [
     name: "Avila Natural SPF 50 Sunscreen",
     category: "Skincare",
     price: 18000,
-    image: "https://images.unsplash.com/photo-1564149504-7b9b5b8b7b8b?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-8.jpeg",
     description: "Avila Naturalle broad-spectrum sunscreen with zinc oxide and natural botanicals, lightweight formula.",
     inStock: true
   },
@@ -78,7 +78,7 @@ const products = [
     name: "Avila Peptide Eye Cream",
     category: "Skincare",
     price: 30000,
-    image: "https://images.unsplash.com/photo-1505944270255-72b8c68c6a70?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-9.jpeg",
     description: "Avila Naturalle anti-aging eye cream with plant peptides and natural extracts to reduce fine lines.",
     inStock: true
   },
@@ -87,7 +87,7 @@ const products = [
     name: "Avila Willow Bark Cleanser",
     category: "Skincare",
     price: 17000,
-    image: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-10.jpeg",
     description: "Avila Naturalle deep-cleansing face wash with natural willow bark (salicylic acid) for acne-prone skin.",
     inStock: true
   },
@@ -96,7 +96,7 @@ const products = [
     name: "Avila Pure Rose Hip Oil",
     category: "Skincare",
     price: 21000,
-    image: "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-11.jpeg",
     description: "Avila Naturalle 100% pure, cold-pressed rose hip oil for natural skin regeneration and hydration.",
     inStock: true
   },
@@ -105,7 +105,7 @@ const products = [
     name: "Avila Fruit Enzyme Mask",
     category: "Skincare",
     price: 27000,
-    image: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-12.jpeg",
     description: "Avila Naturalle weekly fruit enzyme mask with papaya and pineapple for gentle exfoliation and renewal.",
     inStock: true
   },
@@ -114,7 +114,7 @@ const products = [
     name: "Avila Collagen Boosting Serum",
     category: "Skincare",
     price: 32000,
-    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-1.jpeg",
     description: "Avila Naturalle collagen-boosting serum with marine peptides for firmer, younger-looking skin.",
     inStock: true
   },
@@ -123,7 +123,7 @@ const products = [
     name: "Avila Brightening Face Mask",
     category: "Skincare",
     price: 24000,
-    image: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-2.jpeg",
     description: "Avila Naturalle brightening face mask with turmeric and honey for radiant, glowing skin.",
     inStock: true
   },
@@ -132,7 +132,7 @@ const products = [
     name: "Avila Acne Treatment Gel",
     category: "Skincare",
     price: 19000,
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-3.jpeg",
     description: "Avila Naturalle acne treatment gel with tea tree oil and niacinamide for clear skin.",
     inStock: true
   },
@@ -141,7 +141,7 @@ const products = [
     name: "Avila Hydrating Mist",
     category: "Skincare",
     price: 16000,
-    image: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-4.jpeg",
     description: "Avila Naturalle hydrating facial mist with rose water and aloe vera for instant refreshment.",
     inStock: true
   },
@@ -150,7 +150,7 @@ const products = [
     name: "Avila Anti-Dark Spot Cream",
     category: "Skincare",
     price: 29000,
-    image: "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?w=400&h=400&fit=crop&crop=center",
+    image: "/Avila-5.jpeg",
     description: "Avila Naturalle anti-dark spot cream with kojic acid and vitamin E for even skin tone.",
     inStock: true
   },
@@ -158,110 +158,128 @@ const products = [
   // Contact Lenses
   {
     id: 8,
-    name: "Daily Disposable Contact Lenses",
+    name: "Contact Lens 1",
     category: "Contact Lenses",
     price: 32000,
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=center",
-    description: "Comfortable daily disposable contact lenses with UV protection and moisture technology.",
+    image: "/ContackL.jpeg",
+    description: "Contact Lens Image 1",
     inStock: true
   },
   {
     id: 9,
-    name: "Monthly Silicone Hydrogel Lenses",
+    name: "Contact Lens 2",
     category: "Contact Lenses",
-    price: 48000,
-    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop&crop=center",
-    description: "Long-lasting monthly contact lenses with superior oxygen flow and comfort.",
-    inStock: true
-  },
-  {
-    id: 7,
-    name: "Blue Colored Contact Lenses",
-    category: "Contact Lenses",
-    price: 40000,
-    image: "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&h=400&fit=crop&crop=center",
-    description: "Natural-looking blue colored contact lenses for a stunning ocean-blue look.",
+    price: 32000,
+    image: "/ContackL1.jpeg",
+    description: "Contact Lens Image 2",
     inStock: true
   },
   {
     id: 10,
-    name: "Toric Lenses for Astigmatism",
+    name: "Contact Lens 3",
     category: "Contact Lenses",
-    price: 56000,
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=center",
-    description: "Specialized toric contact lenses designed for astigmatism correction with stable vision.",
+    price: 32000,
+    image: "/ContackL2.jpeg",
+    description: "Contact Lens Image 3",
     inStock: true
   },
   {
-    id: 30,
-    name: "Green Colored Contact Lenses",
+    id: 11,
+    name: "Contact Lens 4",
     category: "Contact Lenses",
-    price: 40000,
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
-    description: "Natural-looking green colored contact lenses for beautiful emerald eyes.",
+    price: 32000,
+    image: "/ContackL3.jpeg",
+    description: "Contact Lens Image 4",
     inStock: true
   },
   {
-    id: 34,
-    name: "Brown Colored Contact Lenses",
+    id: 12,
+    name: "Contact Lens 5",
     category: "Contact Lenses",
-    price: 40000,
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=400&fit=crop&crop=center",
-    description: "Natural-looking brown colored contact lenses for warm, honey-brown eyes.",
+    price: 32000,
+    image: "/ContackL4.jpeg",
+    description: "Contact Lens Image 5",
     inStock: true
   },
   {
-    id: 45,
-    name: "Gray Colored Contact Lenses",
+    id: 13,
+    name: "Contact Lens 6",
     category: "Contact Lenses",
-    price: 40000,
-    image: "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=400&h=400&fit=crop&crop=center",
-    description: "Sophisticated gray colored contact lenses for a mysterious, smoky-eye look.",
+    price: 32000,
+    image: "/ContackL5.jpeg",
+    description: "Contact Lens Image 6",
     inStock: true
   },
   {
-    id: 46,
-    name: "Weekly Disposable Lenses",
+    id: 14,
+    name: "Contact Lens 7",
     category: "Contact Lenses",
-    price: 37000,
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=center",
-    description: "Convenient weekly disposable contact lenses perfect for active lifestyles and travel.",
+    price: 32000,
+    image: "/ContackL6.jpeg",
+    description: "Contact Lens Image 7",
     inStock: true
   },
   {
-    id: 47,
-    name: "Multifocal Contact Lenses",
+    id: 15,
+    name: "Contact Lens 8",
     category: "Contact Lenses",
-    price: 64000,
-    image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=400&fit=crop&crop=center",
-    description: "Progressive multifocal contact lenses for presbyopia correction with seamless vision zones.",
+    price: 32000,
+    image: "/ContackL7.jpeg",
+    description: "Contact Lens Image 8",
     inStock: true
   },
   {
-    id: 48,
-    name: "Violet Colored Contact Lenses",
+    id: 16,
+    name: "Contact Lens 9",
     category: "Contact Lenses",
-    price: 42000,
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
-    description: "Striking violet colored contact lenses for a unique, enchanting appearance.",
+    price: 32000,
+    image: "/ContackL8.jpeg",
+    description: "Contact Lens Image 9",
     inStock: true
   },
   {
-    id: 49,
-    name: "Extended Wear Monthly Lenses",
+    id: 17,
+    name: "Contact Lens 10",
     category: "Contact Lenses",
-    price: 53000,
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=400&fit=crop&crop=center",
-    description: "Extended wear monthly contact lenses approved for safe overnight use up to 30 days.",
+    price: 32000,
+    image: "/ContackL9.jpeg",
+    description: "Contact Lens Image 10",
     inStock: true
   },
   {
-    id: 50,
-    name: "Honey Colored Contact Lenses",
+    id: 18,
+    name: "Contact Lens 11",
     category: "Contact Lenses",
-    price: 39000,
-    image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=400&fit=crop&crop=center",
-    description: "Warm honey colored contact lenses for a natural golden-amber eye transformation.",
+    price: 32000,
+    image: "/ContackL10.jpeg",
+    description: "Contact Lens Image 11",
+    inStock: true
+  },
+  {
+    id: 19,
+    name: "Contact Lens 12",
+    category: "Contact Lenses",
+    price: 32000,
+    image: "/ContackL11.jpeg",
+    description: "Contact Lens Image 12",
+    inStock: true
+  },
+  {
+    id: 20,
+    name: "Contact Lens 13",
+    category: "Contact Lenses",
+    price: 32000,
+    image: "/ContackL12.jpeg",
+    description: "Contact Lens Image 13",
+    inStock: true
+  },
+  {
+    id: 21,
+    name: "Contact Lens 14",
+    category: "Contact Lenses",
+    price: 32000,
+    image: "/ContackL13.jpeg",
+    description: "Contact Lens Image 14",
     inStock: true
   },
 
@@ -302,15 +320,7 @@ const products = [
     description: "Eco-friendly canvas tote bag perfect for daily use.",
     inStock: true
   },
-  {
-    id: 6,
-    name: "Designer Handbag",
-    category: "Bags",
-    price: 20500.0,
-    image: "/b2.jpg",
-    description: "Elegant designer handbag with gold hardware.",
-    inStock: false
-  },
+
 
   {
     id: 13,
@@ -393,24 +403,8 @@ const products = [
     description: "Specialized contact lenses for astigmatism correction.",
     inStock: true
   },
-    {
-    id: 6,
-    name: "Designer Handbag",
-    category: "Bags",
-    price: 20500.0,
-    image: "/b20.jpg",
-    description: "Elegant designer handbag with gold hardware.",
-    inStock: false
-  },
-  {
-    id: 22,
-    name: "Mini Shoulder Bag ",
-    category: "Bags",
-    price: 20500.0,
-    image: "/b9.jpg",
-    description: "Compact shoulder bag perfect for evening outings.",
-    inStock: true
-  },
+ 
+
   {
     id: 23,
     name: "Mini Shoulder Bag ",
