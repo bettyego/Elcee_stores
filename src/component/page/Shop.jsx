@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Products from '../data/products';
+import Products from '../Data/products';
 import ProductCard from '../ProductCard';
 
 const categories = ['All', 'Skincare', 'Bags', 'Contact Lenses'];
