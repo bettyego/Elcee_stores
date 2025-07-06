@@ -194,8 +194,8 @@ const AdminDashboard = () => {
                 )}
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {productList.map((product) => (
-                    <div key={product.id} className="border border-gray-200 rounded-lg p-4">
+                  {productList.map((product, i) => (
+                    <div key={product.id + i} className="border border-gray-200 rounded-lg p-4">
                       <img
                         src={product.image}
                         alt={product.name}
