@@ -72,7 +72,7 @@ const Hero = () => {
           {slides.map((slide, idx) => (
             <SwiperSlide key={idx} className="relative">
               {/* Background Image */}
-              <div className="absolute inset-0 opacity-30">
+              <div className="absolute inset-0">
                 <img
                   src={slide.image}
                   alt={slide.title}

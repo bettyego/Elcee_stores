@@ -5,17 +5,14 @@ const NigerianPaymentMethods = ({ total, onPaymentSuccess }) => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [bankTransferDetails, setBankTransferDetails] = useState(false);
 
+  const whatsappLink = "http://wa.me/2348153387439";
+
   const handlePaystackPayment = async () => {
     setIsProcessing(true);
     
     // Simulate Paystack payment processing
     setTimeout(() => {
-      onPaymentSuccess({
-        method: 'Paystack',
-        transactionId: 'PSK_' + Date.now(),
-        amount: total,
-        currency: 'NGN'
-      });
+      window.location.href = whatsappLink;
       setIsProcessing(false);
     }, 2000);
   };
@@ -25,12 +22,7 @@ const NigerianPaymentMethods = ({ total, onPaymentSuccess }) => {
     
     // Simulate Flutterwave payment processing
     setTimeout(() => {
-      onPaymentSuccess({
-        method: 'Flutterwave',
-        transactionId: 'FLW_' + Date.now(),
-        amount: total,
-        currency: 'NGN'
-      });
+      window.location.href = whatsappLink;
       setIsProcessing(false);
     }, 2000);
   };
@@ -46,6 +38,8 @@ const NigerianPaymentMethods = ({ total, onPaymentSuccess }) => {
       handleFlutterwavePayment();
     } else if (paymentMethod === 'bank-transfer') {
       handleBankTransfer();
+    } else if (paymentMethod === 'cod') {
+      window.location.href = whatsappLink;
     }
   };
 
