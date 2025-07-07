@@ -26,7 +26,7 @@ const Account = () => {
             <div className="flex justify-between items-center">
               <div>
                 <h1 className="text-2xl font-bold text-gray-800">My Account</h1>
-                <p className="text-gray-600">Welcome back, {user.firstName}!</p>
+                <p className="text-gray-600">Welcome back, {user.firstName || user.email}!</p>
               </div>
               <button
                 onClick={handleLogout}

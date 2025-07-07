@@ -1,20 +1,12 @@
 import { useCart } from './context/CartContext';
-import { useAuth } from './context/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import { showToast } from './Toast';
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
-  const { isAuthenticated } = useAuth();
-  const navigate = useNavigate();
 
   const handleAddToCart = () => {
-    if (!isAuthenticated) {
-      navigate('/login');
-      return;
-    }
     addToCart(product);
-    // Show success message (you can add a toast notification here)
-    alert(`${product.name} added to cart!`);
+    showToast(`"${product.name}" has been added to your cart!`);
   };
 
   return (

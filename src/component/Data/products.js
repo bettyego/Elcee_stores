@@ -158,128 +158,112 @@ const products = [
   // Contact Lenses
   {
     id: 8,
-    name: "Contact Lens 1",
+    name: "Classic Clear Vision Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL.jpeg",
-    description: "Contact Lens Image 1",
+    description: "Daily-wear clear contact lenses for crisp, natural vision and all-day comfort.",
     inStock: true
   },
   {
     id: 9,
-    name: "Contact Lens 2",
+    name: "Aqua Gray Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL1.jpeg",
-    description: "Contact Lens Image 2",
+    description: "Vibrant aqua blue lenses for a bold, refreshing look and comfortable wear.",
     inStock: true
   },
   {
     id: 10,
-    name: "Contact Lens 3",
+    name: "Emerald Brown Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL2.jpeg",
-    description: "Contact Lens Image 3",
+    description: "Striking emerald green lenses to enhance your natural beauty with a touch of elegance.",
     inStock: true
   },
   {
     id: 11,
-    name: "Contact Lens 4",
+    name: "Hazel Blue Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL3.jpeg",
-    description: "Contact Lens Image 4",
+    description: "Warm hazel brown lenses for a soft, natural transformation and subtle charm.",
     inStock: true
   },
   {
     id: 12,
-    name: "Contact Lens 5",
+    name: "Crystal Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL4.jpeg",
-    description: "Contact Lens Image 5",
+    description: "Sophisticated crystal gray lenses for a modern, captivating appearance.",
     inStock: true
   },
   {
     id: 13,
-    name: "Contact Lens 6",
+    name: "Dream Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL5.jpeg",
-    description: "Contact Lens Image 6",
+    description: "Enchanting violet lenses for a unique, head-turning style.",
     inStock: true
   },
   {
     id: 14,
-    name: "Contact Lens 7",
+    name: "Best Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL6.jpeg",
-    description: "Contact Lens Image 7",
+    description: "Golden honey lenses for a radiant, sun-kissed eye color.",
     inStock: true
   },
   {
     id: 15,
-    name: "Contact Lens 8",
+    name: "Yellow Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL7.jpeg",
-    description: "Contact Lens Image 8",
+    description: "Deep ocean blue lenses for a mesmerizing, cool-toned gaze.",
     inStock: true
   },
   {
     id: 16,
-    name: "Contact Lens 9",
+    name: "Peal Green Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL8.jpeg",
-    description: "Contact Lens Image 9",
+    description: "Intense pure black lenses for a dramatic, defined look.",
     inStock: true
   },
-  {
-    id: 17,
-    name: "Contact Lens 10",
-    category: "Contact Lenses",
-    price: 32000,
-    image: "/ContackL9.jpeg",
-    description: "Contact Lens Image 10",
-    inStock: true
-  },
+
   {
     id: 18,
-    name: "Contact Lens 11",
+    name: "Pearl Gray Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL10.jpeg",
-    description: "Contact Lens Image 11",
+    description: "Soft pearl gray lenses for a gentle, sophisticated effect.",
     inStock: true
   },
-  {
-    id: 19,
-    name: "Contact Lens 12",
-    category: "Contact Lenses",
-    price: 32000,
-    image: "/ContackL11.jpeg",
-    description: "Contact Lens Image 12",
-    inStock: true
-  },
+ 
   {
     id: 20,
-    name: "Contact Lens 13",
+    name: "Purple Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL12.jpeg",
-    description: "Contact Lens Image 13",
+    description: "Lush forest green lenses for a natural, earthy transformation.",
     inStock: true
   },
   {
     id: 21,
-    name: "Contact Lens 14",
+    name: "Ice Blue Color Lenses",
     category: "Contact Lenses",
     price: 32000,
     image: "/ContackL13.jpeg",
-    description: "Contact Lens Image 14",
+    description: "Cool ice blue lenses for a striking, unforgettable impression.",
     inStock: true
   },
 

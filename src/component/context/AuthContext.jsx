@@ -19,17 +19,26 @@ export const AuthProvider = ({ children }) => {
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Mock user data
+
+      // Try to get user from localStorage (from signup)
+      const savedUser = localStorage.getItem('user');
+      if (savedUser) {
+        const parsedUser = JSON.parse(savedUser);
+        if (parsedUser.email === email) {
+          setUser(parsedUser);
+          return { success: true };
+        }
+      }
+
+      // If not found, fallback to mock user
       const userData = {
         id: 1,
         email,
-        firstName: 'John',
-        lastName: 'Doe',
+        firstName: email.split('@')[0],
+        lastName: '',
         isAdmin: email === 'admin@elcee.com',
         orders: []
       };
-      
       setUser(userData);
       localStorage.setItem('user', JSON.stringify(userData));
       return { success: true };

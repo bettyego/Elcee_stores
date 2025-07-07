@@ -58,7 +58,7 @@ const Navbar = () => {
           {isAuthenticated ? (
             <div className="flex items-center space-x-4">
               <Link to="/account" className="text-gray-600 hover:text-purple-700 text-sm">
-                Hi, {user?.firstName}
+                Account
               </Link>
               {isAdmin && (
                 <Link to="/admin" className="bg-purple-600 text-white px-3 py-1 rounded text-sm hover:bg-purple-700">
